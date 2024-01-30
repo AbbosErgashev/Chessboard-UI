@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="chess-board.png" />
+    <None Remove="white_queen.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="chess-board.png" />
+    <Resource Include="white_queen.png" />
+  </ItemGroup>
+
+</Project>
